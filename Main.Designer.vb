@@ -85,9 +85,11 @@ Partial Class Main
         '
         Me.ListView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ListView1.HideSelection = False
+        Me.ListView1.LargeImageList = Me.ImageList1
         Me.ListView1.Location = New System.Drawing.Point(0, 27)
         Me.ListView1.Name = "ListView1"
         Me.ListView1.Size = New System.Drawing.Size(516, 326)
+        Me.ListView1.SmallImageList = Me.ImageList1
         Me.ListView1.TabIndex = 1
         Me.ListView1.UseCompatibleStateImageBehavior = False
         '
